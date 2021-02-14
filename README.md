@@ -7,7 +7,7 @@ The format of files is osassgn**X**_ 99.c/txt where x is the number assigned to 
 Install linux and write a C program for insertion sort using gcc.\
 Explore the linux commands, gcc compiler.\
 After writing the Insertion Sort Code. Compile it using 
-> gcc osassign1_99.c -o osassign1 \<
+> gcc osassign1_99.c -o osassign1 \
 
 After this you'll get an executable file the the name osassign1
 Run this using 
