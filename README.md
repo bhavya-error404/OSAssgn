@@ -39,14 +39,16 @@ Parent must wait for the child to exit. \
 Parent exits after getting message and signal from the wait signal call. \
 
 ### osassign4_99
-i) Write a program to fork a child process using fork() command. Child process must execute ps system call and display its process id and parent process id. 
-ii) Write two programs serverprogram.c and clientprogram.c and compile them separately as serverprogram and clientprogram respectively. 
+i) Write a program to fork a child process using fork() command. Child process must execute ps system call and display its process id and parent process id. \
+ii) Write two programs serverprogram.c and clientprogram.c and compile them separately as serverprogram and clientprogram respectively. \
 
 Clientprogram.c must print the n numbers \
 Serverprogram.c must fork a child process which should execute the clientprogram using exec command. \
 To compile the serverprogram (osassign4_server_99.c)
 > gcc osassign4_server_99.c -o serverprogram
+
 To compile the clientprogram (osassign4_client_99.c)
 > gcc osassign4_client_99.c -o clientprogram
+
 run using
 > ./serverprogram
