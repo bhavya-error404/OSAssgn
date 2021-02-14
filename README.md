@@ -20,13 +20,13 @@ Run this using
 > ./osassign1 
 
 ### osassign2_99
-Write a C program to check process ids of the program and the parent of \ 
-the program process \
-1. Use system command to execute ps command to get all the processes \
-under the current user system (“ps”) \
-2. Use getpid() and getppid() to get the program process and parent \
-process ids \ 
-Check if the program process id and parent process ids are listed in the \
-ps command. \
+Write a C program to check process ids of the program and the parent of  
+the program process 
+1. Use system command to execute ps command to get all the processes 
+under the current user system (“ps”) 
+2. Use getpid() and getppid() to get the program process and parent 
+process ids 
+Check if the program process id and parent process ids are listed in the 
+ps command. 
 
 ### 
