@@ -1,0 +1,9 @@
+ child_id = 2159 parent_id = 2158 
+    PID TTY          TIME CMD
+   2116 pts/0    00:00:00 zsh
+   2158 pts/0    00:00:00 serverprogram
+   2159 pts/0    00:00:00 serverprogram
+   2160 pts/0    00:00:00 sh
+   2161 pts/0    00:00:00 ps
+Enter a number : 4
+ 0  1  2  3  

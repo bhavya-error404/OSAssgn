@@ -1,0 +1,3 @@
+Enter the Size of array : 7
+Enter Array Elements : 1 9 2 3 7 5 4
+Output array :  1  2  3  4  5  7  9   

@@ -1,0 +1,3 @@
+Child: "test.txt"
+Parent: Contents of file are  "Hello This is file content my name is bhavya"
+Child :  "Exiting"

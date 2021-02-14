@@ -1,0 +1,15 @@
+child 1 child_id = 3186 parent_id = 3185 
+child 2 child_id = 3187 parent_id = 3185 
+child 3 child_id = 3188 parent_id = 3185 
+child 4 child_id = 3189 parent_id = 3185 
+child 5 child_id = 3190 parent_id = 3185 
+    PID TTY          TIME CMD
+   2074 pts/0    00:00:01 zsh
+   3185 pts/0    00:00:00 osassign2_99
+   3186 pts/0    00:00:00 osassign2_99 <defunct>
+   3187 pts/0    00:00:00 osassign2_99 <defunct>
+   3188 pts/0    00:00:00 osassign2_99 <defunct>
+   3189 pts/0    00:00:00 osassign2_99 <defunct>
+   3190 pts/0    00:00:00 osassign2_99 <defunct>
+   3191 pts/0    00:00:00 sh
+   3192 pts/0    00:00:00 ps
