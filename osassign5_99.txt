@@ -1,0 +1,7 @@
+└─$ ./msgq_client
+Enter a number : 23
+Received Binary Format : 10111      
+
+└─$ ./msgq_server                             
+Received number  : 23 
+Binary Format : 10111  
