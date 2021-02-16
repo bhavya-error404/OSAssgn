@@ -52,3 +52,26 @@ To compile the clientprogram (osassign4_client_99.c)
 
 run using
 > ./serverprogram
+
+### osassign5_99
+Objective: Communication between independent processes using Message Queues. \
+Write two programs msgq_server.c and msgq_client.c. msgq_server: 
+-creates a message queue - reads message from queue for an integer. 
+- converts integer to binary format and writes it to the queue. 
+msg_client: 
+-attaches itself to the queue -prompts user to enter an integer and writes it to the queue. 
+-reads the binary format sent from the server on the queue
+
+To compile the serverprogram (osassign5_msgqserv_99.c)
+> gcc osassign5_msgqserv_99.c -o msgq_server 
+
+To compile the clientprogram (osassign5_msgqcli_99.c)
+> gcc osassign5_msgqcli_99.c -o msgq_client 
+
+Open two different terminals and run the following commands in each of them simultaneously\
+run using \
+In First Terminal
+> ./msgq_server
+
+In Second Terminal 
+> ./msgq_client
