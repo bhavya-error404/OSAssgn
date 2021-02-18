@@ -35,7 +35,6 @@ int main()
     msgrcv(msgid, &m, sizeof(m),2,0);
     printf("Received number  : %d \n",m.x);
     dectobin(m.x);
-    m.x=99;
     msgsnd(msgid, &m, sizeof(m), 0); 
 
     msgctl(msgid, IPC_RMID, NULL);
